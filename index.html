@@ -15,8 +15,11 @@
         body{
             width: 80%;
             margin-left: 150px;
-            background-color: green;
+           
             margin-top: 10px;
+            background-color:rgb(199, 192, 192); 
+    
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
             
         }
     #textItem{
@@ -37,19 +40,61 @@
       
    }
    .container{
-       background-color: blue;
+    background-color:#c1d7d7;
        width: 100%;
    }
-   #mainbio{
-             background-color: azure;
-             margin-top: 10px;
+  #mainbio{
+            background-color: azure;
+            margin: 50px 0px 50px 0px ;
+                       
+             
    }
 
    #about{
-      border-bottom: 2px solid red;
-   }
+      border-bottom: 2px #00cc99 solid;  
+       
+      margin-top: 20px ;
+      margin-bottom: 10px ;
+      margin-left: 20px; 
 
-   
+   }
+   img {
+    float: left;    
+    width: 150px;
+    height: 150px;
+    margin: 0px 15px 0px 5px;
+    
+  }
+
+  footer{
+            
+            clear: both;
+            overflow: 0;
+            border-top: #00cc99 solid 5px;
+            background-color:#669999;
+        }
+        #biotext p{
+
+    margin: 20px;  
+    font-size: 17px;
+    line-height: 22px;
+    text-align: left;
+    padding: 10px;
+
+        }
+
+        #foot{
+            clear: both;
+            overflow: 0;
+            border-top: #00cc99 solid 5px;
+            background-color:#669999;
+            height: 50px;
+            padding-top: 10px;
+
+        }
+
+
+
     </style>
     
     
@@ -83,26 +128,38 @@
               </ul>
               
             </div>
+
+
+                  
+
+
+
           </nav>
 
           <div class="container">
               <div class="row">
                   <div class="col-sm-2" id="mainbioleft">
-content here 1
+
 
                   </div>
 
 
                   <div class="col-sm-8" id="mainbio">
-                        content here 2
+                        
                         <div class="row" id="about">
-                            <p>
+                           
 
-                              About Me  
-                            </p>
+                                    <h4> About Me</h4>
+                            
                         </div>
 
                         <div class="row" id="biotext">
+                                <p><img src="assets/images/bio_image.JPG" alt="Osyodife" id="bio-image"> 
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    
+                                    Lorem ipsum dolor <br>sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. 
+                                    Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+                                                                </p>
                             
                             </div>
 
@@ -112,16 +169,24 @@ content here 1
                                           </div>
 
                                           <div class="col-sm-2" id="mainbioright">
-                                                content here 3
+                                               
                                                 
                                                                   </div>
 
 
               </div>
 
+          <div class="row justify-content-center" id="foot">
+                <div class="col-sm-12 nav justify-content-center">
+                        copyright &copy;
+
+
+                </div>
+          </div>
 
 
 
+                  
 
           </div>
                   
