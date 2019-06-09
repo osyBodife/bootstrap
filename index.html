@@ -58,8 +58,7 @@
       margin-left: 20px; 
 
    }
-   img {
-    float: left;    
+   img {     
     width: 150px;
     height: 150px;
     margin: 0px 15px 0px 5px;
@@ -92,7 +91,21 @@
             padding-top: 10px;
 
         }
+     .nav-item{
+         background-color: black;
+         color: white;
+         height: 80px;
+         text-align: center;
         
+
+     }   
+
+     .nav-link{
+        height: 80px;
+        padding: 10px;
+        
+        
+     }
 
 
 
@@ -104,38 +117,30 @@
             <!--[if lt IE 7]>
                 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
             <![endif]-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
-                <a class="navbar-brand " id="myName" href="#">Osy Odife</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active ">
-                      <a class="nav-link  " id="textItem" href="#">About <span class="sr-only">(current)</span></a>
+            <ul class="nav nav-pills nav-fill">
+                    <li class="nav-item  ">
+                      <a class="nav-link active pt-4" href="#">
+                           Osy Odife
+                        
+                       </a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link pt-4" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" id="textItem" href="#">Portfolio</a>
+                      <a class="nav-link pt-4" href="#">Portfolio</a>
                     </li>
-    
+
                     <li class="nav-item">
-                        <a class="nav-link" id="textItem" href="#">Contact</a>
-                      </li>
-    
-    
-                    
+                            <a class="nav-link pt-4" href="#">Contact</a>
+                          </li>
+
+
                     
                   </ul>
                   
-                </div>
-    
-    
-                      
-    
-    
-    
-              </nav>
+
+
     
               <div class="container">
                   <div class="row">
@@ -155,7 +160,8 @@
                             </div>
     
                             <div class="row" id="biotext">
-                                    <p><img src="assets/images/bio_image.JPG" alt="Osyodife" id="bio-image"> 
+                                    
+                                    <p><img src="assets/images/bio_image.JPG" class="float-left"  alt="Osyodife" id="bio-image"> 
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                         
                                         Lorem ipsum dolor <br>sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. 
